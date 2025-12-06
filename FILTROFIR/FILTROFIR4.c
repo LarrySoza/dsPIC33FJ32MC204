@@ -94,17 +94,3 @@ int main(void)
 
     return 0;
 }
-
-/* Main mínimo que ejecuta el FIR pasabajo y transmite las muestras filtradas
- * por UART1 en ASCII (una muestra por línea). Comentarios en español.
- *
- * Requisitos:
- * - inputsignal_square1khz.s (exporta _square1k)
- * - lowpassexample.s       (exporta _lowpassexampleFilter)
- * - Librería DSP/linker con FIR/FIRDelayInit disponibles
- *
- * Nota: ajustar BLOCK_LENGTH si la señal tiene otra longitud.
- */
-
-
-
